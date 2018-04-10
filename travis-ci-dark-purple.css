@@ -1,0 +1,29 @@
+@-moz-document domain("travis-ci.org") {
+    aside#left, body, button, footer, .build-commit, .build-info, .build-list,
+    .build-list li, .build-tiles li, .build-tools, .dupa, .main,
+    .navigation-nested, .notice-banner--yellow, .repos-list, .top, .topbar,
+    .wrapper, .wrapper-main, #travis-search {
+        background: #222 !important;
+    }
+    .build-commit::after, .fade-out::after, .job-lang:after, .job-env:after,
+    .owner-info::after, .row-message::after, 
+    .row-branch.passed::after, .row-branch.errored::after, .row-branch.failed::after,
+    .tile-title.passed::after, .tile-title.errored::after, .tile-title.failed::after {
+        background: linear-gradient(-90deg,#222 20%,rgba(255,255,255,0) 100%) !important;
+    }
+    .commit-description::after {
+        background: linear-gradient(360deg,#222 5%,rgba(255,255,255,0) 100%) !important;
+    }
+    li.canceled, .tile.canceled {
+        background: linear-gradient(to right,#9d9d9d 0,#9d9d9d 10px,#222 10px,#222 100%) no-repeat !important;
+    }
+    li.errored, li.failed, .tile.errored, .tile.failed {
+        background: linear-gradient(to right,#db4545 0,#db4545 10px,#222 10px,#222 100%) no-repeat !important;
+    }
+    li.passed, .tile.passed {
+        background: linear-gradient(to right,#39aa56 0,#39aa56 8px,#222 8px,#222 100%) no-repeat !important;
+    }
+    .active, .repo-header, .repo-title a, .repo-title a:hover, #navigation-anchor, nav a {
+        color: #9977BB !important;
+    }
+}
