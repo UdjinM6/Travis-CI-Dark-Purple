@@ -38,7 +38,7 @@
     li.booting, li.created, li.queued, li.received, li.started,
     .tile.booting, .tile.created, .tile.queued, .tile.received, .tile.started
     {
-        background: linear-gradient(to right,#edde3f 0,#edde3f 8px,#222 8px,#222 100%) no-repeat;
+        background: linear-gradient(to right,#edde3f 0,#edde3f 8px,#222 8px,#222 100%) no-repeat !important;
     }
     .active, .repo-header, .repo-title a, .repo-title a:hover,
     #navigation-anchor, nav a
