@@ -1,10 +1,18 @@
 @-moz-document domain("travis-ci.org") {
     aside#left, body, button, footer, .build-commit, .build-info, .build-list,
     .build-list li, .build-tiles li, .build-tools, .dupa, .main,
-    .navigation-nested, .notice-banner--yellow, .repos-list, .tile.started,
-    .top, .topbar, .wrapper, .wrapper-main, #travis-search
+    .navigation-nested, .notice-banner--yellow, .option-dropdown, .repos-list,
+    .tile.started, .top, .topbar, .wrapper, .wrapper-main, #travis-search
     {
         background: #222 !important;
+    }
+    .job-env:hover, .navigation-nested a:hover
+    {
+        background: #444 !important;
+    }
+    .job-lang:hover
+    {
+        background: inherit !important;
     }
     .build-commit::after, .fade-out::after, .job-lang:after, .job-env:after,
     .owner-info::after, .row-message::after, 
