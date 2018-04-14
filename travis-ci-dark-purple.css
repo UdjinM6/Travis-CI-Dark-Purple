@@ -2,7 +2,8 @@
     aside#left, body, button, footer, .build-commit, .build-info, .build-list,
     .build-list li, .build-tiles li, .build-tools, .dupa, .main,
     .navigation-nested, .notice-banner--yellow, .option-dropdown, .repos-list,
-    .tile.started, .top, .topbar, .wrapper, .wrapper-main, #travis-search
+    .row-branch:hover a, .tile.started, .top, .topbar, .wrapper, .wrapper-main,
+    #travis-search
     {
         background: #222 !important;
     }
@@ -15,15 +16,17 @@
         background: inherit !important;
     }
     .build-commit::after, .fade-out::after, .job-lang:after, .job-env:after,
-    .owner-info::after, .row-message::after, 
-    .row-branch.booting::after, .row-branch.created::after, 
-    .row-branch.errored::after, .row-branch.failed::after, 
-    .row-branch.passed::after, .row-branch.queued::after,
-    .row-branch.received::after, .row-branch.started::after,
-    .tile-title.booting::after, .tile-title.created::after,
-    .tile-title.errored::after, .tile-title.failed::after,
-    .tile-title.passed::after, .tile-title.queued::after,
-    .tile-title.received::after, .tile-title.started::after
+    .owner-info::after, .row-message::after,
+    .row-branch.booting::after, .row-branch.canceled::after,
+    .row-branch.created::after, .row-branch.errored::after,
+    .row-branch.failed::after, .row-branch.passed::after,
+    .row-branch.queued::after, .row-branch.received::after,
+    .row-branch.started::after,
+    .tile-title.booting::after, .tile-title.canceled::after,
+    .tile-title.created::after, .tile-title.errored::after,
+    .tile-title.failed::after, .tile-title.passed::after,
+    .tile-title.queued::after, .tile-title.received::after,
+    .tile-title.started::after
     {
         background: linear-gradient(-90deg,#222 20%,rgba(255,255,255,0) 100%) !important;
     }
