@@ -32,7 +32,12 @@
     {
         background: #444 !important;
     }
- 
+
+    .branch-row .row-last-build::before
+    {
+        background: #555 !important;
+    }
+
     .job-lang:hover
     {
         background: inherit !important;
@@ -103,6 +108,43 @@
     .tile.started
     {
         background: linear-gradient(to right,#edde3f 0,#edde3f 8px,#222 8px,#222 100%) no-repeat !important;
+    }
+
+    .action-button--cancel,
+    .action-button--debug,
+    .action-button--restart,
+    .build-header,
+    .jobs-item,
+    .option-display,
+    .row-li,
+    .search--sidebar .search-inner
+    {
+        border-color: #555 !important;
+    }
+
+    .repo-navigation,
+    .sidebar-list ul,
+    .travistab-nav.travistab-nav--underline
+    {
+        border-bottom-color: #555 !important;
+    }
+
+    .option-tofu
+    {
+        border-left-color: #555!important;
+    }
+
+    .build-tiles li,
+    .job-number,
+    .pr-row .two-line:first-of-type,
+    #left
+    {
+        border-right-color: #555!important;
+    }
+
+    .footer
+    {
+        box-shadow: 0 -2px 3px #555!important;
     }
  
     .active,
