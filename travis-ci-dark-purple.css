@@ -115,6 +115,12 @@
         background: linear-gradient(to right,#edde3f 0,#edde3f 8px,#222 8px,#222 100%) no-repeat !important;
     }
 
+    .close-env::after,
+    .detail-job-env::after
+    {
+        background: none !important;
+    }
+
     .action-button--cancel,
     .action-button--debug,
     .action-button--restart,
