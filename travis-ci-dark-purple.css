@@ -136,7 +136,7 @@
 
     .option-tofu
     {
-        border-left-color: #555!important;
+        border-left-color: #555 !important;
     }
 
     .build-tiles li,
@@ -144,12 +144,12 @@
     .pr-row .two-line:first-of-type,
     #left
     {
-        border-right-color: #555!important;
+        border-right-color: #555 !important;
     }
 
     .footer
     {
-        box-shadow: 0 -2px 3px #555!important;
+        box-shadow: 0 -2px 3px #555 !important;
     }
  
     .active,
