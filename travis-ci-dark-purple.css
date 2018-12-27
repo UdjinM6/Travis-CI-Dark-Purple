@@ -126,6 +126,12 @@
         background: none !important;
     }
 
+    .switch .switch-inner,
+    .switch.active .switch-inner
+    {
+        background-color: #9977BB;
+    }
+
     .action-button--cancel,
     .action-button--debug,
     .action-button--restart,
