@@ -1,4 +1,16 @@
 @-moz-document domain("travis-ci.org") {
+    :root {
+        --color: #CCC;
+        --background: #222;
+        --background-light: #444;
+        --border: #555;
+        --gray: #9D9D9D;
+        --green: #39AA56;
+        --red: #DB4545;
+        --purple: #9977BB;
+        --yellow: #EDDE3F;
+    }
+
     aside#left,
     body,
     button,
@@ -25,18 +37,18 @@
     .wrapper-main,
     #travis-search
     {
-        background: #222 !important;
+        background: var(--background) !important;
     }
  
     .job-env:hover,
     .navigation-nested a:hover
     {
-        background: #444 !important;
+        background: var(--background-light) !important;
     }
 
     .branch-row .row-last-build::before
     {
-        background: #555 !important;
+        background: var(--border) !important;
     }
 
     .job-lang:hover
@@ -70,19 +82,19 @@
     .tile-title.received::after,
     .tile-title.started::after
     {
-        background: linear-gradient(-90deg,#222 20%,rgba(255,255,255,0) 100%) !important;
+        background: linear-gradient(-90deg,var(--background) 20%,rgba(255,255,255,0) 100%) !important;
     }
  
     .commit-description::after
     {
-        background: linear-gradient(360deg,#222 5%,rgba(255,255,255,0) 100%) !important;
+        background: linear-gradient(360deg,var(--background) 5%,rgba(255,255,255,0) 100%) !important;
     }
  
     li.canceled,
     .build-header.canceled,
     .tile.canceled
     {
-        background: linear-gradient(to right,#9d9d9d 0,#9d9d9d 10px,#222 10px,#222 100%) no-repeat !important;
+        background: linear-gradient(to right,var(--gray) 0,var(--gray) 10px,var(--background) 10px,var(--background) 100%) no-repeat !important;
     }
  
     li.errored,
@@ -92,14 +104,14 @@
     .tile.errored,
     .tile.failed
     {
-        background: linear-gradient(to right,#db4545 0,#db4545 10px,#222 10px,#222 100%) no-repeat !important;
+        background: linear-gradient(to right,var(--red) 0,var(--red) 10px,var(--background) 10px,var(--background) 100%) no-repeat !important;
     }
 
     li.passed,
     .build-header.passed,
     .tile.passed
     {
-        background: linear-gradient(to right,#39aa56 0,#39aa56 10px,#222 10px,#222 100%) no-repeat !important;
+        background: linear-gradient(to right,var(--green) 0,var(--green) 10px,var(--background) 10px,var(--background) 100%) no-repeat !important;
     }
 
     li.booting,
@@ -118,7 +130,7 @@
     .tile.received,
     .tile.started
     {
-        background: linear-gradient(to right,#edde3f 0,#edde3f 8px,#222 8px,#222 100%) no-repeat !important;
+        background: linear-gradient(to right,var(--yellow) 0,var(--yellow) 8px,var(--background) 8px,var(--background) 100%) no-repeat !important;
     }
 
     .close-env::after,
@@ -130,7 +142,7 @@
     .switch .switch-inner,
     .switch.active .switch-inner
     {
-        background-color: #9977BB;
+        background-color: var(--purple);
     }
 
     .action-button--cancel,
@@ -142,19 +154,19 @@
     .row-li,
     .search--sidebar .search-inner
     {
-        border-color: #555 !important;
+        border-color: var(--border) !important;
     }
 
     .repo-navigation,
     .sidebar-list ul,
     .travistab-nav.travistab-nav--underline
     {
-        border-bottom-color: #555 !important;
+        border-bottom-color: var(--border) !important;
     }
 
     .option-tofu
     {
-        border-left-color: #555 !important;
+        border-left-color: var(--border) !important;
     }
 
     .build-tiles li,
@@ -162,12 +174,12 @@
     .pr-row .two-line:first-of-type,
     #left
     {
-        border-right-color: #555 !important;
+        border-right-color: var(--border) !important;
     }
 
     .footer
     {
-        box-shadow: 0 -2px 3px #555 !important;
+        box-shadow: 0 -2px 3px var(--border) !important;
     }
  
     .active,
@@ -178,12 +190,12 @@
     #navigation-anchor,
     nav a
     {
-        color: #9977BB !important;
+        color: var(--purple) !important;
     }
 
     code
     {
-        color: #fff !important;
+        color: var(--color) !important;
         text-shadow: none !important;
     }
 }
