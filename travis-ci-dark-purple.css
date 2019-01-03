@@ -61,6 +61,7 @@
     .job-lang:after,
     .job-env:after,
     .owner-info::after,
+    .owner-tile,
     .profile-header h1::after,
     .row-message::after,
     .row-branch.booting::after,
