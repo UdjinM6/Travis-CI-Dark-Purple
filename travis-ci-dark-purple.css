@@ -1,4 +1,4 @@
-@-moz-document domain("travis-ci.org") {
+@-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
     :root {
         --color: #CCC;
         --background: #222;
@@ -31,6 +31,7 @@
     .notice-banner--yellow,
     .option-dropdown,
     .oss-testing,
+    .owner-tile,
     .repos-list,
     .row-branch:hover a,
     .tile.started,
@@ -64,7 +65,7 @@
     .job-lang:after,
     .job-env:after,
     .owner-info::after,
-    .owner-tile,
+    .owner-tile:after,
     .profile-header h1::after,
     .row-message::after,
     .row-branch.booting::after,
