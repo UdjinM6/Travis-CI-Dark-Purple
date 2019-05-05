@@ -37,6 +37,7 @@
     .tile.started,
     .top,
     .topbar,
+    .username,
     .wrapper,
     .wrapper-main,
     #travis-search
@@ -85,7 +86,8 @@
     .tile-title.passed::after,
     .tile-title.queued::after,
     .tile-title.received::after,
-    .tile-title.started::after
+    .tile-title.started::after,
+    .username span::after
     {
         background: linear-gradient(-90deg,var(--background) 20%,rgba(255,255,255,0) 100%) !important;
     }
