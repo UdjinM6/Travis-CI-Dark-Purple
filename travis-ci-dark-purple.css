@@ -168,7 +168,8 @@
 
     .repo-navigation,
     .sidebar-list ul,
-    .travistab-nav.travistab-nav--underline
+    .travistab-nav.travistab-nav--underline,
+    .travistab-nav--secondary a
     {
         border-bottom-color: var(--border) !important;
     }
