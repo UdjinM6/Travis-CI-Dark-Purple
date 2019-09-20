@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         Travis CI Dark Purple
+@version      1.0.0
+@description  A Dark Travis-CI style with purple highlights
+@namespace    https://github.com/Obsidian-StudiosInc/Travis-CI-Dark-Purple
+@author       Obsidian Studios Inc
+@homepageURL  https://github.com/Obsidian-StudiosInc/Travis-CI-Dark-Purple
+@supportURL   https://github.com/Obsidian-StudiosInc/Travis-CI-Dark-Purple/issues
+@updateURL    https://raw.githubusercontent.com/Obsidian-StudiosInc/Travis-CI-Dark-Purple/master/travis-ci-dark-purple.user.css
+==/UserStyle== */
+
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
     :root {
         --color: #CCC;
