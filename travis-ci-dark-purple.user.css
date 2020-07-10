@@ -78,6 +78,7 @@
     .fade-out::after,
     .job-lang:after,
     .job-env:after,
+    .job-name:after,
     .owner-info::after,
     .owner-tile:after,
     .profile-header h1::after,
