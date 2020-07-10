@@ -58,6 +58,7 @@
     }
  
     .job-env:hover,
+    .job-name:hover,
     .navigation-nested a:hover
     {
         background: var(--background-light) !important;
